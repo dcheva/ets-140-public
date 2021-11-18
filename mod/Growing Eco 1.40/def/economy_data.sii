@@ -44,7 +44,7 @@ economy_data : economy.data.storage
 
 #########################################
 	maximum_driving_time: 1200	
-	sleeping_time: 240
+	sleeping_time: 240		
 #########################################
 
 	delivery_window[0]: 480		# easy // 400
