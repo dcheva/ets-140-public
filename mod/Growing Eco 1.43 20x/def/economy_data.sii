@@ -1,5 +1,5 @@
 SiiNunit
-### (c) Cheva 2017-2021
+### (c) Cheva 2017-2022
 ### //xx this values are original
 ### //!!!20x!!!// this values are 20x from Growing Eco
 {
@@ -43,10 +43,10 @@ economy_data : economy.data.storage
 	default_time_zone: 120		# +2 hours
 	default_time_zone_name: "CEST"
 
-#########################################
+	#########################################
 	maximum_driving_time: 1200	
 	sleeping_time: 240		
-#########################################
+	#########################################
 
 	delivery_window[]: 480		# easy // 400
 	delivery_window[]: 240		# medium // 250
@@ -63,9 +63,9 @@ economy_data : economy.data.storage
 	cargo_validity_min: 120		# 2 hours // 180
 	cargo_validity_max: 600		# 10 hours // 1800
 
-######################################### https://www.fairwork.gov.au/ArticleDocuments/872/road-transport-long-distance-operations-award-ma000039-pay-guide.pdf.aspx
-######################################### European prices: https://della.eu/price/local/ (current mediana $0.85)
-######################################### With this settings: Company cargo ~.~ all skills 1, up to ~.~ all skills 5, Market cargo: x3
+	################################## https://www.fairwork.gov.au/ArticleDocuments/872/road-transport-long-distance-operations-award-ma000039-pay-guide.pdf.aspx
+	################################# European prices: https://della.eu/price/local/ (current mediana $0.85)
+	################################# With this settings: Company cargo ~.~ all skills 1, up to ~.~ all skills 5, Market cargo: x3
 
 	fixed_revenue: 7720 // 600/350*167 // 600 //!!!20x!!!//
 	revenue_coef_per_km: 1 # Revenue coefficient per km used during freight market jobs. // 0.5/10 base, 0.85 is europe medium price // 0.9 //!!!20x!!!//
@@ -90,16 +90,16 @@ economy_data : economy.data.storage
 
 	driver_skilled_job_prob: 0.9 // 0.8
 
-#################################################################
-##
-## Skill job filtering
-##  Job distance limit (in km of real world)
-##
-	skill_distance[]:	300 // 250
-	skill_distance[]:	500 // 350
-	skill_distance[]:	800 // 1100
-	skill_distance[]:	1300 // 850
-	skill_distance[]:	2100 // 1100
+	#################################################################
+	##
+	## Skill job filtering
+	## Job distance limit (in km of real world)
+	##
+	skill_distance[]:	500 // 250
+	skill_distance[]:	700 // 350
+	skill_distance[]:	1000 // 1100
+	skill_distance[]:	1500 // 850
+	skill_distance[]:	2500 // 1100
 	skill_distance[]:	1 // 1500 // for big maps as ProMods, EAA or RusMap //!!!ANY distance +30% total!!!//
 
 	max_eco_consumption_drop[]: (0.15, 0.20) # consumption decreased by 40% (or 60% if driving with trailer) // 0.1 0.1
@@ -109,7 +109,7 @@ economy_data : economy.data.storage
 	max_eco_consumption_drop[]: (0.35, 0.40)	
 	max_eco_consumption_drop[]: (0.40, 0.45) # Maximum consumption drop is 0.99.
 
-### all values was 0.05 or 5% or total +30%
+	### all values was 0.05 or 5% or total +30%
 	reward_bonus_long_dist[]: 0.05
 	reward_bonus_long_dist[]: 0.05
 	reward_bonus_long_dist[]: 0.05
@@ -129,19 +129,19 @@ economy_data : economy.data.storage
 	reward_bonus_fragile[]: 0.10
 	reward_bonus_fragile[]: 0.10
 	reward_bonus_fragile[]: 0.10
-	reward_bonus_fragile[]: 0.10 // total +60%
+	reward_bonus_fragile[]: 0.10 // total + 60%
 
 	reward_bonus_urgent[]: 0.05
 	reward_bonus_urgent[]: 0.05
 	reward_bonus_urgent[]: 0.05
 	reward_bonus_urgent[]: 0.10
 	reward_bonus_urgent[]: 0.15
-	reward_bonus_urgent[]: 0.20 // total + +60%
+	reward_bonus_urgent[]: 0.20 // total + 60%
 
 	reward_bonus_level: 0.01 // 0.015
 	### 50 lvl +50%
 
-#  Experience points
+	### Experience points
 
 	free_roam_report_limit: 10 // 100
 
@@ -185,9 +185,9 @@ economy_data : economy.data.storage
 
 	adr_info_icon[]:	"8|/material/ui/icon/adr_8.mat"
 
-#
-#	Delivery reward levels
-#
+	##
+	##	Delivery reward levels
+	##
 	reward_medal[]:		"delivery2"
 	reward_medal[]:		"delivery1"
 	reward_medal[]:		"delivery4"
@@ -212,13 +212,11 @@ economy_data : economy.data.storage
 	reward_damage_level[]:	40.0
 	reward_damage_level[]:	100.0
 
-
-
-#
-#	currency display options
-#	default has to be first
-#	currency format: [sign1] - [sign2] 1.234,- [sign3]
-#
+	##
+	##	currency display options
+	##	default has to be first
+	##	currency format: [sign1] - [sign2] 1.234,- [sign3]
+	##
 
 	currency_code[]: "EUR"
 	currency_ratio[]: 1
@@ -275,13 +273,13 @@ economy_data : economy.data.storage
 	currency_sign3[]: " kr"
 
 	currency_code[]: "RUB"
-	currency_ratio[]: 77.05
+	currency_ratio[]: 177.05
 	currency_sign1[]: ""
 	currency_sign2[]: "₽"
 	currency_sign3[]: ""
 
 	currency_code[]: "UAH"
-	currency_ratio[]: 31.40
+	currency_ratio[]: 32.40
 	currency_sign1[]: ""					
 	currency_sign2[]: "₴"
 	currency_sign3[]: ""
