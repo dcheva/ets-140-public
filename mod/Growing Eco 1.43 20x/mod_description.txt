@@ -11,7 +11,7 @@ The financial part is as close to real life as possible.
 
 [blue] Changes in the economy and the game: [normal]
 	- Expa increased 1.5-2 times from SCS.
-	- The bonuses of the exp for the level made non-linear, see that it is more profitable to swing and carry.
+	- The bonuses of XP for the level made non-linear, see that it is more profitable to swing and carry.
 	- Prices and rewards are changed.
 	- Time requirements are changed.
 	- Sleep time 4 hours, work shift 10 hours. (We work for two).
