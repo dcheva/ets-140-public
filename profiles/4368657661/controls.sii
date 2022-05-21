@@ -1,6 +1,6 @@
 SiiNunit
 {
-input_config : _nameless.233.7253.8b70 {
+input_config : _nameless.212.133c.7d50 {
  version: 21
  config_lines: 501
  config_lines[0]: "device keyboard `di8.keyboard`"
@@ -37,8 +37,8 @@ input_config : _nameless.233.7253.8b70 {
  config_lines[31]: "constant c_jisteer 0.000000"
  config_lines[32]: "constant c_jilookud 0.000000"
  config_lines[33]: "constant c_jilooklr 0.000000"
- config_lines[34]: "constant c_rsteersens 0.195000"
- config_lines[35]: "constant c_asteersens 1.170000"
+ config_lines[34]: "constant c_rsteersens 0.122500"
+ config_lines[35]: "constant c_asteersens 0.735000"
  config_lines[36]: "constant c_mousesteer 1.000000"
  config_lines[37]: "constant c_mousepedal 0.000000"
  config_lines[38]: "constant c_mped_dz 0.200000"
@@ -314,11 +314,11 @@ input_config : _nameless.233.7253.8b70 {
  config_lines[308]: "mix airhorn `keyboard.n?0 | semantical.airhorn?0`"
  config_lines[309]: "mix lighthorn `keyboard.j?0 | keyboard.lalt?0 | semantical.lighthorn?0`"
  config_lines[310]: "mix beacon `keyboard.o?0 | semantical.beacon?0`"
- config_lines[311]: "mix motorbrake `keyboard.b?0 | keyboard.lctrl?0 | semantical.motorbrake?0`"
+ config_lines[311]: "mix motorbrake `keyboard.b?0 | keyboard.lshift?0 | semantical.motorbrake?0`"
  config_lines[312]: "mix engbraketog `semantical.engbraketog?0`"
  config_lines[313]: "mix engbrakeup `semantical.engbrakeup?0`"
  config_lines[314]: "mix engbrakedwn `semantical.engbrakedwn?0`"
- config_lines[315]: "mix trailerbrake `unbound?0 | keyboard.lshift?0 | semantical.trailerbrake?0`"
+ config_lines[315]: "mix trailerbrake `unbound?0 | keyboard.lctrl?0 | semantical.trailerbrake?0`"
  config_lines[316]: "mix retarderup `keyboard.semicolon?0 | semantical.retarderup?0`"
  config_lines[317]: "mix retarderdown `keyboard.apostrophe?0 | semantical.retarderdown?0`"
  config_lines[318]: "mix retarder0 `semantical.retarder0?0`"
