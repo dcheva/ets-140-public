@@ -1,5 +1,5 @@
-# Growing Economy
-v1.40 by Cheva
+# Growing Economy 100x
+(c) 2022 v1.44 by Cheva
 
 ##### Main module.
 Place this mod in the top of all. (rewrote def/economy.data, def/damage_data, def/bank.data)
@@ -26,8 +26,8 @@ The financial part is as close to real life as possible.
 - Added 3 possible credits: 60000/20%, 40/26%, 20/33% (can take 500k at 4th level!)
 - Does not work under other mods on the economy, including time control
 
-# Растущая экономика
-v1.40 от Чевы
+# Растущая экономика 100x
+v1.44 от Чевы
 
 ##### Основной мод.
 Мод должен находится выше остальных. (переписал def/economy.data, def/damage_data, def/bank.data)
@@ -54,8 +54,3 @@ v1.40 от Чевы
 - Добавил 3 возможных кредита: 60000/20%, 40/26%, 20/33% (доступно 500 тысяч с 4 уровня!)
 - Не работает под другими модами на экономику, в том числе контроль времени
 
-___
-github | https://github.com/dcheva  
-fcbook | https://www.facebook.com/groups/FS19modsByCheva/  
-photos | https://photos.app.goo.gl/XcPpfLJezCNCexnF8  
-yutube | https://www.youtube.com/user/dmitrycheva  

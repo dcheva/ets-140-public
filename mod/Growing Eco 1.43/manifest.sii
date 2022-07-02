@@ -2,11 +2,11 @@ SiiNunit
 {
   mod_package : .universal 
   {
-    package_version: "1.40"
+    package_version: "1.44"
     author: "dmitry.cheva"
     icon: "eco.jpg"
     category[]:	"other"
-    display_name: "Growing Economy 1.40"
+    display_name: "Growing Economy 1.44"
     description_file: "mod_description.txt"
   }
 }
