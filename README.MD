@@ -1,4 +1,4 @@
-CONTINUED FROM https://github.com/dcheva/ets-134-public/tree/1.40 due to repo size
+Continued from https://github.com/dcheva/ets-140-public due to repo size
 
 MIT License
 
