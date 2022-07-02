@@ -1,0 +1,17 @@
+SiiNunit
+{
+global_input_config : _nameless.206.2daa.f9f0 {
+ version: 1
+ ui_whitelisted: 0
+ ui_blacklisted: 0
+ display_names: 7
+ display_names[0]: "`sys.keyboard`|@@keyboard@@"
+ display_names[1]: "`sys.mouse`|@@i_mouse@@"
+ display_names[2]: "`di8.keyboard`|@@keyboard@@"
+ display_names[3]: "`di8.mouse`|@@i_mouse@@"
+ display_names[4]: "`dialogs.keyboard`|@@keyboard@@"
+ display_names[5]: "`dialogs.mouse`|@@i_mouse@@"
+ display_names[6]: "`fusion.mouse`|@@i_mouse@@"
+}
+
+}

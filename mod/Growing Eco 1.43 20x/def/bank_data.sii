@@ -1,0 +1,48 @@
+SiiNunit
+### (c) Cheva 2017-2022
+### //xx this values are original
+### //!!!20x!!!// this values are 20x from Growing Eco
+{
+
+bank_data : bank.data.storage
+{
+	min_after_loan_repay:	0
+
+	loan_offers[]: bank.data.loan0
+	loan_offers[]: bank.data.loan1
+	loan_offers[]: bank.data.loan2
+	loan_offers[]: bank.data.loan3
+
+	overdraft_duration:	5	# days
+	overdraft_warn_day:	2	# starting on 3rd day
+
+}
+
+bank_loan_data: bank.data.loan0
+{
+	amount: 200000
+	interest_rate: 0.10	# 10%
+	duration: 104		# in weeks
+}
+
+bank_loan_data: bank.data.loan1
+{
+	amount: 100000
+	interest_rate: 0.15	# 15%
+	duration: 52		# in weeks
+}
+
+bank_loan_data: bank.data.loan2
+{
+	amount: 50000
+	interest_rate: 0.20	# 20 %
+	duration: 26		# in weeks
+}
+
+bank_loan_data: bank.data.loan3
+{
+	amount: 25000
+	interest_rate: 0.25	# 25 %
+	duration:  13		# in weeks
+}
+}
